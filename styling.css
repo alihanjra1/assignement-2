@@ -1,0 +1,193 @@
+.header {
+    background-image: url(images/mainpic.jpeg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 400px;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        height: 500px;
+        background-size: cover;
+    }
+}
+
+.headings {
+    margin-top: 100px;
+    margin-left: 70px;
+    max-width: 500px;
+}
+
+@media (max-width: 767px) {
+    .headings {
+        margin: 30px auto;
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .headings {
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+    }
+}
+
+.mainheading {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.myname {
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+.name {
+    color: wheat;
+    font-family: sans-serif;
+}
+
+#mainspan {
+    color: rgb(184, 124, 124);
+}
+
+.Menu {
+    justify-content: end;
+    display: flex;
+    color: white;
+    margin-right: 50px;
+    align-items: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .Menu {
+        justify-content: center;
+        margin-right: 0;
+        align-items: center;
+    }
+}
+
+.b {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .b {
+        margin-left: 10px;
+        font-size: 0.8em;
+    }
+}
+
+.buttonns {
+    margin-left: 70px;
+}
+
+.b:hover {
+    color: red;
+}
+
+.containr {
+    background-color: gray;
+    height: 650px;
+    background-color: gray;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.imagespersonality {
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.personalityheading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.list-group-item {
+    font-family: sans-serif;
+}
+
+.containr1 {
+    background-color: gray;
+    height: 800px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container1 {
+        height: auto;
+    }
+}
+
+.card-link {
+    color: gray;
+    text-align: center;
+}
+
+.card-link:hover {
+    color: red;
+}
+
+.card {
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 570px;
+    width: 300px;
+    background-color: rgb(240, 236, 236);
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+
+.fixed-top {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 350px;
+}
+
+
+/* WEb PAGE FAVTOURIST  */
+
+.container2 {
+    background-image: url(images/naturlbeauty.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.theading {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* Contact page */
+
+.container3 {
+    background-color: gray;
+    height: 600px;
+}
